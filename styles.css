@@ -1,0 +1,64 @@
+div{
+    height: 100px;
+    width: 540px;
+    border-radius: 10px;
+    background-color: rgba(73, 4, 119, 0.88);
+    box-shadow: 3px 3px 8px 8px rgba(198, 192, 16, 0.78);
+}
+div.a {
+    line-height: 10%;
+  }
+  div.b {
+    line-height: 10%;
+  }
+  div.c {
+    line-height: 5%;
+  }
+h3.one {
+    word-spacing: 470px;
+  }
+  h1.one {
+    word-spacing: 255px;
+  }   
+  h1.two {
+    word-spacing: 350px;
+  }  
+  h1.three {
+    word-spacing: 340px;
+  }  
+  p.one {
+    word-spacing: 75px;
+  }  
+body {
+   font-family: "Sour Gummy", sans-serif;
+    font-size: 100%;
+    color:azure;
+    line-height: 175%;
+    margin: 0 15% 0;
+    background: linear-gradient(to bottom, rgba(73, 4, 119, 0.88), rgba(75, 73, 6, 0.78));
+    
+}
+
+h1 {
+    font-family: "Sour Gummy", sans-serif;
+  font: bold 1.5em "Sour Gummy", sans-serif;
+  font-size: 200%;
+  
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align:center;
+
+}
+
+strong {
+  font-style: italic;
+}
+
+
+
+
+
+
