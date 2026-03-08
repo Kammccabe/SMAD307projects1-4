@@ -1,0 +1,56 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+
+body{
+    background-color: darkgreen;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 100%;
+    color:#82e28d;
+    line-height: 175%;
+    
+}
+.nav-link{
+    display: block;
+    font-family: "Sour Gummy", sans-serif;
+    color:#82e28d
+   
+}
+    
+h1 {
+    font-family: "Sour Gummy", sans-serif;
+  font: bold 1.5em "Sour Gummy", sans-serif;
+  font-size: 100%;
+  text-align: center;
+  margin-top: 6%;
+  color: #82e28d;
+  
+}
+h2 {
+    font-family: "Sour Gummy", sans-serif;
+    font: bold 1.5em "Sour Gummy", sans-serif;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 6%;
+    color: #82e28d;
+
+
+}
+h3{
+    font-family: "Sour Gummy", sans-serif;
+  font-size: 1em;
+  letter-spacing: 0em;
+  text-align:center;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+h4{
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 1em;
+    letter-spacing: 0em;
+    text-align:center;
+    margin-bottom: 10%;
+}
+div{
+    background-color: darkgreen;
+    
+}
