@@ -3,7 +3,7 @@
   <head>
     <!--
 AI Use Disclosure:
-Tool(s): ChatGPT (free version)
+Tool(s): Claude (Free Version), Google Gemini (Free Version), ChatGPT (Free Version)
 Purpose: ... -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,49 +18,21 @@ Purpose: ... -->
     
    <!-- Custom styles - add your own CSS to this stylesheet -->
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
 
- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+ <nav class="navbar bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="#"><h1>SMAD 498 Mexico City Study Abroad Spring 2026</h1></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand" href="#"><h1>The Colors of Mexico 2026</h1></a>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
           <li class="nav justify-content-center">
-
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Overview</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Day 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Day 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Day 3</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Day 4</a>
-            </li><li class="nav-item">
-              <a class="nav-link" href="#">Day 5</a>
-            </li><li class="nav-item">
-              <a class="nav-link" href="#">Day 6</a>
-            </li><li class="nav-item">
-              <a class="nav-link" href="#">Day 7</a>
-            </li><li class="nav-item">
-              <a class="nav-link" href="#">Day 8</a>
-            </li><li class="nav-item">
-              <a class="nav-link" href="#">Day 9</a>
-            </li><li class="nav-item">
-              <a class="nav-link" href="#">Day 10</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -70,13 +42,13 @@ Purpose: ... -->
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="1.png" class="d-block w-100" alt="mexico1">
+          <img src="mex1.png" class="d-block w-100" alt="mexico1">
         </div>
         <div class="carousel-item">
-          <img src="2.png" class="d-block w-100" alt="mexico2">
+          <img src="mex2.png" class="d-block w-100" alt="mexico2">
         </div>
         <div class="carousel-item">
-          <img src="3.png" class="d-block w-100" alt="mexico3">
+          <img src="mex3.png" class="d-block w-100" alt="mexico3">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -92,116 +64,162 @@ Purpose: ... -->
   <div class="row">
 <div class="col-lg-12">
 <h2>Overview</h2> 
-<h2>*background information of the study abroad program here*</h2>
+<h3>*background information of the study abroad program here*</h3>
 </div> <!--end overview content-->
 </div> <!--row overview end-->
 
-<div class="row">
-<div class="col-lg-6">
-<h2>Day 1</h2>
-<img src="500px-Flag_of_Mexico.svg.png" alt="...">
-</div> <!-- end day 1 photo-->
-<div class="col-lg-6">
-  <h3>*Insert content here on what we did/learned that day*</h3>
-</div> <!-- end day 1 content-->
-</div> <!--row day 1 end-->
+<div class="row mt-5 mb-5">
+  <div class="col-12 d-flex justify-content-center flex-wrap gap-2">
+    
+    <button type="button" class="btn btn-green btn-lg" data-bs-toggle="modal" data-bs-target="#modalGreen">Green</button>
+  <br>
+    <button type="button" class="btn btn-red" data-bs-target="#modalRed" data-bs-toggle="modal">Red</button>
+  <br>
+    <button type="button" class="btn btn-white" data-bs-target="#modalWhite" data-bs-toggle="modal">White</button>
+  <br>
+    <button type="button" class="btn btn-pink" data-bs-target="#modalPink" data-bs-toggle="modal">Pink</button>
+  <br>
+    <button type="button" class="btn btn-yellow" data-bs-target="#modalYellow" data-bs-toggle="modal">Yellow</button>
+  <br>
+    <button type="button" class="btn btn-blue" data-bs-target="#modalBlue" data-bs-toggle="modal">Blue</button>
 
-<div class="row">
-  <div class="col-lg-6">
-    <h2>Day 2</h2>
-    <img src="500px-Flag_of_Mexico.svg.png" alt="...">
-  </div> <!-- end day 2 photo-->
-  <div class="col-lg-6">
-  <h3>*Insert content here on what we did/learned that day*</h3>
-  </div> <!-- end day 2 content-->
-  </div> <!--row day 2 end-->
+  </div>
+</div>
 
-  <div class="row">
-    <div class="col-lg-6">
-      <h2>Day 3</h2>
-      <img src="500px-Flag_of_Mexico.svg.png" alt="...">
-    </div> <!-- end day 3 photo-->
-    <div class="col-lg-6">
-      <h3>*Insert content here on what we did/learned that day*</h3>
-    </div> <!-- end day 3 content-->
-    </div> <!--row day 3 end-->
+<!-- Button trigger modal -->
 
-    <div class="row">
-      <div class="col-lg-6">
-        <h2>Day 4</h2>
-        <img src="500px-Flag_of_Mexico.svg.png" alt="...">
-      </div> <!-- end day 4 photo-->
-      <div class="col-lg-6">
-        <h3>*Insert content here on what we did/learned that day*</h3>
-      </div> <!-- end day 4 content-->
-      </div> <!--row day 4 end-->
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>Day 5</h2>
-          <img src="500px-Flag_of_Mexico.svg.png" alt="...">
-        </div> <!-- end day 5 photo-->
-        <div class="col-lg-6">
-          <h3>*Insert content here on what we did/learned that day*</h3>
-        </div> <!-- end day 5 content-->
-        </div> <!--row day 5 end-->
+<!-- Modal1-->
+<div class="modal fade" id="modalGreen" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title fs-5" id="staticBackdropLabel1">Green</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="green.png" alt="collage of photos containing green content from the trip to mexico.">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal 1end-->
 
-        <div class="row">
-          <div class="col-lg-6">
-            <h2>Day 6</h2>
-            <img src="500px-Flag_of_Mexico.svg.png" alt="...">
-          </div> <!-- end day 6 photo-->
-          <div class="col-lg-6">
-            <h3>*Insert content here on what we did/learned that day*</h3>
-          </div> <!-- end day 6 content-->
-          </div> <!--row day 6 end-->
+<!-- Button trigger modal -->
 
-          <div class="row">
-            <div class="col-lg-6">
-              <h2>Day 7</h2>
-              <img src="500px-Flag_of_Mexico.svg.png" alt="...">
-            </div> <!-- end day 7 photo-->
-            <div class="col-lg-6">
-              <h3>*Insert content here on what we did/learned that day*</h3>
-            </div> <!-- end day 7 content-->
-            </div> <!--row day 7 end-->
+<!-- Modal 2-->
+<div class="modal fade" id="modalRed" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title fs-5" id="staticBackdropLabel2">Red</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="red.png" alt="collage of photos containing red content from the trip to mexico.">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal 2end-->
 
-            <div class="row">
-              <div class="col-lg-6">
-                <h2>Day 8</h2>
-                <img src="500px-Flag_of_Mexico.svg.png" alt="...">
-              </div> <!-- end day 8 photo-->
-              <div class="col-lg-6">
-                <h3>*Insert content here on what we did/learned that day*</h3>
-              </div> <!-- end day 8 content-->
-              </div> <!--row day 8 end-->
-              <div class="row">
-                <div class="col-lg-6">
-                  <h2>Day 9</h2>
-                  <img src="500px-Flag_of_Mexico.svg.png" alt="...">
-                </div> <!-- end day 9 photo-->
-                <div class="col-lg-6">
-                  <h3>*Insert content here on what we did/learned that day*</h3>
-                </div> <!-- end day 9 content-->
-                </div> <!--row day 9 end-->
+<!-- Button trigger modal -->
 
-                <div class="row">
-                  <div class="col-lg-6">
-                    <h2>Day 10</h2>
-                    <img src="500px-Flag_of_Mexico.svg.png" alt="...">
-                  </div> <!-- end day 10 photo-->
-                  <div class="col-lg-6">
-                    <h3>*Insert content here on what we did/learned that day*</h3>
-                  </div> <!-- end day 10 content-->
-                  </div> <!--row day 10 end-->
-                </div>
-              </div>
-    </div> <!--container end-->
+<!-- Modal 3-->
+<div class="modal fade" id="modalWhite" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel3" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title fs-5" id="staticBackdropLabel3">White</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="white.png" alt="collage of photos containing white content from the trip to mexico.">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal 3end-->
+
+<!-- Button trigger modal -->
+
+<!-- Modal 4-->
+<div class="modal fade" id="modalPink" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel4" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title fs-5" id="staticBackdropLabel4">Pink</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="pink.png" alt="collage of photos containing pink content from the trip to mexico.">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal 4end-->
+
+<!-- Button trigger modal -->
+
+<!-- Modal5 -->
+<div class="modal fade" id="modalYellow" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel5" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title fs-5" id="staticBackdropLabel5">Yellow</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="yellow.png" alt="collage of photos containing yellow content from the trip to mexico.">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal 5end-->
+
+<!-- Button trigger modal -->
+
+<!-- Modal 6-->
+<div class="modal fade" id="modalBlue" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel6" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title fs-5" id="staticBackdropLabel6">Blue</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="blue.png" alt="collage of photos containing blue content from the trip to mexico.">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal 6end-->
+
 
 
 <!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 <!-- END LOADING BOOTSTRAP JAVASCRIPT -->
-      
+        </div>
+      </div>
+    </div> 
   </body>
 </html>

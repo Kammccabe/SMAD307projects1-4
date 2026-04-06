@@ -1,56 +1,188 @@
 /* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
 
 
+img {
+    width: 750px;       /* fixed width */
+    height: 450px;      /* fixed height */
+  }
+
+.barriecito-regular {
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.d-flex .btn {
+    padding: 20px 40px;   /* Top/Bottom: 20px | Left/Right: 40px */
+    font-size: 1.5rem;    /* Makes the text larger, which pushes the button bigger */
+    min-width: 130px;     /* Ensures all buttons are at least this wide */
+    border-radius: 20px;  /* Optional: makes the corners slightly rounded */
+}
+
+
+.modal.fade2 {
+    background-color: #dc002e;
+}
+
+
+.btn.btn-red {
+    background-color: #dc002e;
+    margin-bottom: 25%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+
+
+.btn.btn-green {
+    background-color: #006742;
+    margin-bottom: 25%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+
+.btn.btn-blue {
+    background-color: #0079bc;
+    margin-bottom: 25%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+.btn.btn-yellow {
+    background-color: #ffdd00;
+    margin-bottom: 25%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+
+.btn.btn-white {
+    background-color: #ffffff;
+    margin-bottom: 25%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+.btn.btn-pink {
+    background-color: rgb(255, 0, 126);
+    margin-bottom: 25%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+.bs-btn-bg {
+    background-color: #006742;
+    margin-bottom: 25%;
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+.btn.btn-primary {background: color #006742; 
+    Color: rgb(255, 255, 255); }
+
+.bg-body-tertiary {background-color: black;
+}
+
+.modal.fade {
+    background-color: #bfbfbf;
+    color: #000000;
+}
+    
+.modal.fade2 {
+    background-color: bisque;
+}
+
+
+#modalGreen .modal-content {
+    background-color: #006742;
+    color: #ffffff;
+}
+
+#modalPink .modal-content {
+    background-color: rgb(255, 0, 126);
+}
+
+#modalRed .modal-content {
+    background-color: #dc002e;
+}
+#modalWhite .modal-content {
+    background-color: #ffffff;
+}
+#modalYellow .modal-content {
+    background-color: #ffdd00;
+}
+#modalBlue .modal-content {
+    background-color: #0079bc;
+}
 body{
-    background-color: darkgreen;
-    font-family: "Sour Gummy", sans-serif;
-    font-size: 100%;
-    color:#82e28d;
+    background-color: rgb(191, 191, 191);
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff;
     line-height: 175%;
     
 }
+
+
+
 .nav-link{
     display: block;
-    font-family: "Sour Gummy", sans-serif;
-    color:#82e28d
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:#006742
    
 }
     
 h1 {
-    font-family: "Sour Gummy", sans-serif;
-  font: bold 1.5em "Sour Gummy", sans-serif;
-  font-size: 100%;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 300%;
   text-align: center;
   margin-top: 6%;
-  color: #82e28d;
+  color: #006742;
   
 }
 h2 {
-    font-family: "Sour Gummy", sans-serif;
-    font: bold 1.5em "Sour Gummy", sans-serif;
-    font-size: 150%;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 250%;
     text-align: center;
     margin-top: 6%;
-    color: #82e28d;
+    color: #006742;
 
 
 }
 h3{
-    font-family: "Sour Gummy", sans-serif;
-  font-size: 1em;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150%;
+    color: #006742;
   letter-spacing: 0em;
   text-align:center;
-  margin-top: 20%;
+  margin-top: 5%;
   margin-bottom: 10%;
 }
 h4{
-    font-family: "Sour Gummy", sans-serif;
-    font-size: 1em;
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: 0em;
     text-align:center;
     margin-bottom: 10%;
+    color: #000000;
 }
+
+
+
+
 div{
-    background-color: darkgreen;
+    background-color: rgb(191, 191, 191);
     
 }
